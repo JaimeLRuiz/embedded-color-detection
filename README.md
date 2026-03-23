@@ -1,7 +1,7 @@
 ## Project PIC-axe: PIC-ing up the survivors
 
 Developed by Orla Johnson and Jaime Lopez as part of an Embedded C course at Imperial College London, this project implements a PIC18-based robotic buggy that solves and retraces a colour-coded maze. 
-The full codebase is held in a private Imperial College repository; this page provides a technical overview and selected excerpts.
+The full codebase is held in a private Imperial College repository; this page provides a technical overview and selected excerpts. Drawings by Orla Johnson.
 
 The main aim of this project was to create an autonomous robot that can navigate a "mine" using a series of instructions coded in coloured cards and return to its starting position. Throughout the project different approaches were attempted (e.g. autonomous calibration (Key Commit 1), HSV conversion (Key Commit 2), interrupts (Key Commit 3), individual LED color reading (Key Commit 4). However the following solution gave the most reliable functionality. For completeness this README will highlight commits where these features were implemented for potential future development. 
 
